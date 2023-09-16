@@ -2,6 +2,6 @@ import streamlit
 
 streamlit.title('My Parents New Healthy Diner');
 
-Breakfast Menu
+Breakfast Menu;
 
-Omega 3 & BlueBerry OatMeal
+Omega 3 & BlueBerry OatMeal;
