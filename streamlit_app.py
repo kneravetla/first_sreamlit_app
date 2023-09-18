@@ -54,10 +54,11 @@ if streamlit.button('Get Frut Load List'):
     my_data_rows = get_fruit_load_list() 
     streamlit.dataframe(my_data_rows)
 
+streamlit.stop()
 # New Section to display fruityvice api response
 streamlit.header('What Fruit Would you like to add?');
 fruit_to_add = streamlit.text_input('What Fruit Would you like to add?');
 streamlit.write('Thanks for adding' ,  fruit_to_add)
 
-my_cur.execute("insert into fruit_load_list values ('from streamlit')");
+#my_cur.execute("insert into fruit_load_list values ('from streamlit')");
 
